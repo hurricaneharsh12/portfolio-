@@ -1,0 +1,23 @@
+<!-- smooth scrolling
+
+attach loco.css from github 
+https://github.com/locomotivemtl/locomotive-scroll?tab=readme-ov-file
+attach js wala smmoth wala 
+
+https://github.com/locomotivemtl/locomotive-scroll?tab=readme-ov-file -->
+
+<!-- .html wali file mei ye script url attach krdo https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js -->
+
+<!-- div banao for mern stack h1 tag phir mern stack ko niche le aao phir oveflow hidden krdo taki wo dikha na border:none krdo -->
+<!-- 
+
+t1: This likely represents a timeline or animation sequence created using a library like GSAP (Greensock Animation Platform).
+.from("#nav", { ... }): This part defines the starting state of an element with the ID "nav".
+y: "-10": Sets the initial y-position of the element to -10 units (pixels or other units depending on the context).
+opacity: 0": Sets the initial opacity of the element to 0, making it invisible.
+duration: 1.8": Specifies a duration of 1.8 seconds for the animation.
+ease: Expo.easeInOut": Applies an easing function called Expo.easeInOut to control the speed of the animation. It starts slowly, accelerates, and then decelerates, creating a smooth and natural effect.
+.to(".boundingelem", { ... }): This part defines the ending state of an element with the class "boundingelem".
+y: 0": Sets the final y-position of the element to 0, bringing it back to its original position.
+duration: 1.8": Specifies a duration of 1.8 seconds for the animation.
+ease: Expo.easeInOut": Applies the same easing function as before, ensuring a consistent animation experience. -->
